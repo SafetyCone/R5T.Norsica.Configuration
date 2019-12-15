@@ -1,4 +1,4 @@
-R5T.Norsica.Configuration - An INuGetExecutablePathProvider service definition for the Norsica project.
+R5T.Norsica.Configuration - An IDotnetExecutablePathProvider service definition for the Norsica project.
 
 Goals
 
