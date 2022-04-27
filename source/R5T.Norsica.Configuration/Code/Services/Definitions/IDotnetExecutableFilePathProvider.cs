@@ -1,9 +1,12 @@
 ﻿using System;
 
+using R5T.T0064;
+
 
 namespace R5T.Norsica.Configuration
 {
-    public interface IDotnetExecutableFilePathProvider
+    [ServiceDefinitionMarker]
+    public interface IDotnetExecutableFilePathProvider : IServiceDefinition
     {
         string GetDotnetExecutableFilePath();
     }
